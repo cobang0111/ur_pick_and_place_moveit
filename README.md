@@ -37,9 +37,7 @@ source install/setup.bash
  
 
 ## ✨Execution
-Please open new terminal (2nd terminal)
-<br>
-Calibration and Activating Rviz
+Please open new terminal (2nd terminal) - Calibration and Activating Rviz
 <br>
 If your UR is not UR3e, then you need to change the `ur_type` in `launch/pick_and_place_moveit_launch.py` and below shell command
 ```bash
@@ -53,8 +51,9 @@ ros2 launch ur_calibration calibration_correction.launch.py robot_ip:=<robot_ip>
 
 ros2 launch ur_robot_driver ur_control.launch.py ur_type:=ur3e robot_ip:=<robot_ip> launch_rviz:=false
 ```
-
-Please open new terminal (3rd terminal)
+You need to activate the external control program on your PolyScope
+<br>
+Please open new terminal (3rd terminal) - Activating MoveIt2
 ```bash
 export COLCON_WS=~/workspace/ros_ur_driver
 

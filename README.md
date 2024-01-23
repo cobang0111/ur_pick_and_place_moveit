@@ -68,7 +68,7 @@ Input below command on the 1st terminal.
 <br>
 Please be careful that robot can move unexpect way.
 ```bash
-ros2 launch ur_pick_and_place_moveit ur_pick_and_place_moveit_launch.py
+ros2 launch ur_pick_and_place_moveit pick_and_place_moveit_launch.py
 ```
 
 ## ✨Customizing

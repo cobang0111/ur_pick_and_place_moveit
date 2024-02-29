@@ -11,7 +11,7 @@ Also, MoveIt2 simple path planning of UR must be possible.
 <br>
 Please follow the step of below official ROS2 UR Github link.
 <br>
-https://github.com/LucaBross/simple_moveit2_universal_robots_movement
+https://github.com/UniversalRobots/Universal_Robots_ROS2_Driver 
 
 
 ## ✨Install
